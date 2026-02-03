@@ -1,0 +1,198 @@
+.hero-section{
+    background-color: #183573;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 60px 120px 60px;
+    height: auto;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+.hero-text h2{
+    font-size: 48px;
+    color: #ffffff;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.hero-text p{
+    font-size: 20px;
+    color: #86a4c2;
+    font-family: "Roboto";
+}
+
+.hero-text .hero-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-btn button{
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #304880;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.hero-btn button:hover{
+    background-color: #559bcc;
+}
+
+.hero-img{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.hero-img img{
+    width: 250px;
+}
+
+.mobl-front{
+    position: absolute;
+    right: -30px;
+    top: 70px;
+    z-index: 2;
+}
+
+.mobl-back{
+    position: relative;
+    z-index: 1;
+    right: 30px;
+}
+
+@media only screen and (max-width: 840px) {
+    .hero-section{
+        flex-direction: column;
+        padding: 60px 20px;
+        padding-bottom: 100px;
+        height: auto;
+        gap: 50px;
+    }
+
+    .hero-img img{
+        height: 400px;
+        width: 200px;
+    }
+    .hero-text{
+    width: 90%;
+}
+}
+
+@media only screen and (max-width: 505px){
+    .hero-text{
+        width: 100%;
+    }
+    .hero-text h2{
+    font-size: 38px;
+}
+}
+
+@media only screen and (max-width: 370px){
+    .hero-text h2{
+        font-size: 32px;
+    }
+
+    .hero-text p{
+        font-size: 18px;
+    }
+
+    .hero-btn button{
+    font-size: 15px;
+    padding: 10px 20px;
+}
+}
+
+/* ========== About 1 Section Starts ========== */
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 20px 60px 30px;
+    height: auto;
+}
+
+.about-text h3{
+    background-color: #e8f0f4;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #559BCC;
+    font-family: "Raleway" , sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.about-text h2{
+    font-size: 32px;
+    color: #2D465E;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.about-text p{
+    font-size: 16px;
+    color: #212529;
+}
+
+.about-text button{
+    background-color: #559BCC;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+    margin-top: 10px;
+}
+
+.about-text button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1150px){
+    .about-section{
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 400px){
+    .about-text h2{
+        font-size: 26px;
+    }
+}
+
+/* ========== About 1 Section Ends ========== */
+
+/* ========== About 2 Section Starts ========== */
+
+.about2-section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about2-text h2{
+    font-size: 32px;
+    color: #2D465E;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.about2-text p{
+    font-size: 16px;
+    color: #212529;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+    margin-top: 10px;
+}

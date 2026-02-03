@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #183573 !important;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: #ffffff !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.nav-link{
+    color: #ffffff80 !important;
+    font-size: 17px;
+}
+
+.navbar .nav-link:active, .navbar .nav-link:hover{
+    color: #ffffff !important;
+}
+
