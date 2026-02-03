@@ -1,6 +1,5 @@
 import React from 'react'
 import Card1 from "../components/aboutCard1/Card1"
-import About2 from './About2'
 
 const About = () => {
   return (
@@ -17,7 +16,6 @@ const About = () => {
       </div>
     </div>
 
-    {/* <About2/> */}
     </>
   )
 }
