@@ -6,6 +6,8 @@ import About from './pages/About';
 import Features from './pages/Features';
 import Gallery from './pages/Gallery';
 import Testimonial from './pages/Testimonial';
+import Pricing from './pages/Pricing';
+import FAQ from "./pages/FAQ"
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
     <Features/>
     <Gallery/>
     <Testimonial/>
+    <Pricing/>
+    <FAQ/>
     </>
   );
 }

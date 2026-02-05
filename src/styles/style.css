@@ -533,12 +533,12 @@
     margin-bottom: 50px;
 }
 
-.swiper-slide {
+.gallery-img .swiper-slide {
   transform: scale(0.85);
   transition: all 0.4s ease;
 }
 
-.swiper-slide-active {
+.gallery-img .swiper-slide-active {
   border: 8px solid #559BCC;
   border-radius: 20px;
   background-color: #ffffff;
@@ -653,3 +653,256 @@
 }
 
 /* ========== Testimonial Section Ends ========== */
+
+/* ========== Pricing Section Starts ========== */
+
+.pricing-section{
+    padding: 40px 20px 40px 20px;
+    height: auto;
+}
+
+.pricing-section .pricing-head{
+    text-align: center;
+}
+
+.pricing-section .pricing-head h2{
+    color: #2D465E;
+    font-size: 32px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.pricing-section .pricing-head p{
+    color: #212529;
+    font-size: 17px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+    margin-bottom: 50px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-card-border{
+    border: 3px solid #5599bc;
+}
+
+.price-card-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card-1{
+    width: 356px;
+    height: 647px;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing-card-1 h3{
+    font-size: 20px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+    color: #2D465E;
+}
+
+.pricing-card-1 .layer-3{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color: #ddf2fd;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px 0px;
+}
+
+.pricing-card-1 .layer-2{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background-color: #c2e9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card-1 .layer-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5599bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card-1 .layer-1 i{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.pricing-card-1 h2 sup{
+    font-size: 28px;
+    font-family: "Raleway" , sans-serif;
+    color: #5599bc;
+    font-weight: bold;
+}
+
+.pricing-card-1 h2{
+    font-size: 50px;
+    font-family: "Raleway" , sans-serif;
+    color: #5599bc;
+    font-weight: bold;
+}
+
+.pricing-card-1 h2 sub{
+    font-size: 28px;
+    font-family: "Raleway" , sans-serif;
+    color: #6c757d;
+}
+
+.card-text{
+    padding: 20px 0px;
+}
+
+.card-text p{
+    font-size: 17px;
+    color: #212529;
+}
+
+.card-text p i{
+    font-size: 22px;
+    color: #059652;
+}
+
+.hide {
+    font-size: 17px;
+    color: #6c757d !important;
+}
+
+.hide i{
+    color: #6c757d !important;
+}
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button button{
+    border: 1px solid #a0a0a0;
+    background-color: #ffffff;
+    padding: 12px 50px;
+    border-radius: 50px;
+}
+
+.card-button button a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color: #2d465e;
+    font-weight: 600;
+}
+
+@media (max-width: 965px){
+    .pricing-cards{
+        flex-direction: column;
+        gap: 20px;
+}
+
+.pricing-card-1{
+    width: 100%;
+}
+}
+
+/* ========== Pricing Section Ends ========== */
+
+/* ========== FAQ Section Starts ========== */
+
+.faq-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.faq-section h2 {
+  font-size: 32px;
+  color: #2d465e;
+  margin-bottom: 10px;
+}
+
+.faq-subtitle {
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  border: 1px solid #e3e8ef;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.faq-item.active {
+  border-color: #559bcc;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question h4 {
+  font-size: 18px;
+  color: #559bcc;
+  margin: 0;
+}
+
+.arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .arrow {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  margin-top: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.faq-item.active{
+    background-color: #eef5f9;
+}
+
+.faq-question h4 {
+  color: #2d465E;
+  transition: color 0.3s ease;
+}
+
+.faq-item.active .faq-question h4 {
+  color: #559bcc ;
+}
+
+/* ========== FAQ Section Ends ========== */
+
+/* ========== Contact Section Starts ========== */

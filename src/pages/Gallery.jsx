@@ -40,7 +40,7 @@ const Gallery = () => {
                         <h2>Gallery</h2>
                         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                     </div>
-                    <div>
+                    <div className="gallery-img">
                         <Swiper
                             modules={[Autoplay, Pagination]}
                             centeredSlides

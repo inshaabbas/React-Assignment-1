@@ -18,16 +18,16 @@ const testimonials = [
     image: testiImg1,
     rating: 5,
     text:
-      "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.",
+      "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
   },
   {
     id: 2,
     name: "Sara Wilsson",
-    role: "Designer",
+    role: "Developer",
     image: testiImg2,
     rating: 5,
     text:
-      "Quisquam facilis cum velit laborum corrupti fuga rerum quia.",
+      "iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper",
   },
   {
     id: 3,
@@ -36,25 +36,25 @@ const testimonials = [
     image: testiImg3,
     rating: 5,
     text:
-      "Enim nisi quem export duis labore cillum quae magna enim sint.",
+      "Consequat Proin iaculis purus sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper",
   },
   {
     id: 4,
-    name: "Jena Karlis",
-    role: "Store Owner",
+    name: "Matt Brandon",
+    role: "Freelancer",
     image: testiImg4,
     rating: 5,
     text:
-      "Enim nisi quem export duis labore cillum quae magna enim sint.",
+      "Consequat Proin suscipit rhoncus. iaculis purus sem cure digni ssim donec porttitora entum. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
   },
   {
     id: 5,
-    name: "Jena Karlis",
-    role: "Store Owner",
+    name: "John Larson",
+    role: "Entrepreneur",
     image: testiImg5,
     rating: 5,
     text:
-      "Enim nisi quem export duis labore cillum quae magna enim sint.",
+      "Maecen aliquam, risus at semper. Consequat Proin iaculis purus sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.",
   }
 ];
 
