@@ -1,10 +1,12 @@
 import React from 'react'
 import Card1 from "../components/aboutCard1/Card1"
+import About2 from "../pages/About2"
+import About3 from './About3'
 
 const About = () => {
   return (
     <>
-    <div className='about-section' id='about'>
+    <div className='about-section container-xxl' id='about'>
       <div className='about-text'>
         <h3>About Us</h3>
         <h2>Ducimus rerum libero reprehenderit cumque</h2>
@@ -15,7 +17,8 @@ const About = () => {
         <Card1/>
       </div>
     </div>
-
+    <About2/>
+    <About3/>
     </>
   )
 }

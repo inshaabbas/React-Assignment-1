@@ -14,14 +14,14 @@ const Card2 = () => {
       desc: "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      id: 1,
+      id: 2,
       img: Img2,
       icon: "bi bi-brightness-high",
       title: "Digital Whiteboard",
       desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
     },
     {
-      id: 1,
+      id: 3,
       img: Img3,
       icon: "bi bi-calendar-week",
       title: "Design To Development",
@@ -33,12 +33,12 @@ const Card2 = () => {
       <div className='about-2'>
         {
           cards?.map((card, i) => (
-            <div class="card2">
-              <img src={card.img} class="card-img-top" alt="Card Img"/>
-                <div class="card2-body">
+            <div className="card2" key={i + card.id}>
+              <img src={card.img} alt="Card Img"/>
+                <div className="card2-body">
                   <span><i className={card.icon}></i></span>
-                  <h5 class="card2-title">{card.title}</h5>
-                  <p class="card2-text">{card.desc}</p>
+                  <h5 className="card2-title">{card.title}</h5>
+                  <p className="card2-text">{card.desc}</p>
                 </div>
             </div>
           ))

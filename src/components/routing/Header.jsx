@@ -4,7 +4,7 @@ import "./header.css"
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top">
+    <nav className="navbar navbar-expand-lg sticky-top container-xxl">
       <div className="container-fluid">
         <HashLink smooth className="navbar-brand" to="/#home">SoftLand</HashLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

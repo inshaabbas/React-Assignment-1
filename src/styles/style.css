@@ -181,6 +181,7 @@
     padding: 40px 20px;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .about2-text h2{
@@ -188,6 +189,7 @@
     color: #2D465E;
     font-family: "Raleway" , sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 .about2-text p{
@@ -195,4 +197,458 @@
     color: #212529;
     font-family: "Roboto" , system-ui, -apple-system, sans-serif;
     margin-top: 10px;
+    text-align: center;
 }
+
+/* ========== About 2 Section Ends ========== */
+
+/* ========== About 3 Section Starts ========== */
+
+.about3-section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+}
+
+
+.about3-img img {
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+}
+
+@media only screen and (max-width: 440px){
+    .about3-section{
+    padding: 20px;
+}
+}
+
+/* ========== About 3 Section Ends ========== */
+
+/* ========== Features Section Starts ========== */
+
+.feature-section{
+    /* background-color: pink; */
+    padding: 40px 20px;
+    height: auto;
+}
+
+.feature-head{
+    text-align: center;
+}
+
+.feature-head h2{
+    color: #2D465E;
+    font-size: 32px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.feature-head p{
+    color: #212529;
+    font-size: 17px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}
+
+.features-main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Feature Section 1 */
+
+.feature-sec-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    /* background-color: white; */
+}
+
+.feature-sec-1 .sec-1-img img{
+    width: 580px;
+    height: auto;
+    /* background-color: red; */
+}
+
+.feature-sec-1 .sec-1-text h3{
+    color: #2D465E;
+    font-size: 26px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.feature-sec-1 .sec-1-text p{
+    color: #696c6f;
+    font-size: 17px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}
+.feature-sec-1 .sec-1-text span{
+    display: block;
+    color: #696c6f;
+}
+
+.feature-sec-1 .sec-1-text span i{
+    color: #559BCC;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .feature-sec-1{
+        flex-direction: column;
+        gap: 60px;
+        padding:10px;
+}
+
+}
+
+@media only screen and (max-width: 570px){
+    .feature-sec-1{
+    gap: 25px;
+    padding: 10px 0px;
+}
+.feature-sec-1 .sec-1-text h3{
+    font-size: 24px;
+}
+.feature-sec-1 .sec-1-text p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+}
+
+
+/* Feature Section 2 */
+
+.feature-sec-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    /* background-color: red; */
+}
+
+.feature-sec-2 .sec-2-text {
+  flex: 1;
+}
+
+.feature-sec-2 .sec-2-text p{
+    color: #696c6f;
+}
+
+.feature-sec-2 .sec-2-text h3{
+    color: #2D465E;
+    font-size: 26px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.feature-sec-2 .sec-2-img {
+  flex-shrink: 0;
+  flex: 1;
+}
+
+.feature-sec-2 .sec-2-img img{
+    width: 100%;
+    max-width: 580px;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px){
+    .feature-sec-2{
+        flex-direction: column-reverse;
+    gap: 60px;
+    padding: 10px;
+}
+}
+
+@media only screen and (max-width: 570px){
+    .feature-sec-2{
+    gap: 25px;
+    padding: 10px 0px;
+}
+
+.feature-sec-2 .sec-2-text h3{
+    font-size: 24px;
+}
+
+.feature-sec-2 .sec-2-text p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+}
+
+/* Feature Section 3 */
+
+.feature-sec-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    /* background-color: white; */
+}
+
+.feature-sec-3 .sec-3-img img{
+    width: 580px;
+    height: auto;
+    /* background-color: red; */
+}
+
+.feature-sec-3 .sec-3-text h3{
+    color: #2D465E;
+    font-size: 26px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.feature-sec-3 .sec-3-text p{
+    color: #696c6f;
+    font-size: 17px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}
+.feature-sec-3 .sec-3-text span{
+    display: block;
+    color: #696c6f;
+}
+
+.feature-sec-3 .sec-3-text span i{
+    color: #559BCC;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .feature-sec-3{
+        flex-direction: column;
+        gap: 60px;
+        padding:10px;
+}
+
+}
+
+@media only screen and (max-width: 570px){
+    .feature-sec-3{
+    gap: 25px;
+    padding: 10px 0px;
+}
+.feature-sec-3 .sec-3-text h3{
+    font-size: 24px;
+}
+.feature-sec-3 .sec-3-text p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+}
+
+/* Feature Section 4 */
+
+.feature-sec-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    /* background-color: red; */
+}
+
+.feature-sec-4 .sec-4-text {
+  flex: 1;
+}
+
+.feature-sec-4 .sec-4-text p{
+    color: #696c6f;
+}
+
+.feature-sec-4 .sec-4-text h3{
+    color: #2D465E;
+    font-size: 26px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.feature-sec-4 .sec-4-img {
+  flex-shrink: 0;
+  flex: 1;
+}
+
+.feature-sec-4 .sec-4-img img{
+    width: 100%;
+    max-width: 580px;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px){
+    .feature-sec-4{
+        flex-direction: column-reverse;
+    gap: 60px;
+    padding: 10px;
+}
+}
+
+@media only screen and (max-width: 570px){
+    .feature-sec-4{
+    gap: 25px;
+    padding: 10px 0px;
+}
+
+.feature-sec-4 .sec-4-text h3{
+    font-size: 24px;
+}
+
+.feature-sec-4 .sec-4-text p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+}
+
+/* ========== Features Section Ends ========== */
+
+/* ========== Gallery Section Starts ========== */
+
+.gallery-container{
+    padding: 20px 20px 40px 20px;
+}
+
+.gallery-head{
+    text-align: center;
+}
+
+.gallery-head h2{
+    color: #2D465E;
+    font-size: 32px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.gallery-head p{
+    color: #212529;
+    font-size: 17px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+    margin-bottom: 50px;
+}
+
+.swiper-slide {
+  transform: scale(0.85);
+  transition: all 0.4s ease;
+}
+
+.swiper-slide-active {
+  border: 8px solid #559BCC;
+  border-radius: 20px;
+  background-color: #ffffff;
+  transform: scale(0.90);
+}
+
+
+.swiper-pagination{
+    position: relative !important;
+    margin-top: 30px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: transparent;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #559BCC !important;
+}
+
+@media (max-width: 576px) {
+  .swiper-slide-active {
+    border-width: 4px;
+    transform: scale(1);
+  }
+  .gallery-img{
+    width: 100%;
+  }
+}
+
+/* ========== Gallery Section Ends ========== */
+
+/* ========== Testimonial Section Starts ========== */
+
+.testimonial-section{
+    padding: 20px 20px 40px 20px;
+}
+
+.testimonial-head{
+    text-align: center;
+}
+
+.testimonial-head h2{
+    color: #2D465E;
+    font-size: 32px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.testimonial-head p{
+    color: #212529;
+    font-size: 17px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+    margin-bottom: 50px;
+}
+
+.testimonial-cards{
+    border: none !important;
+}
+
+.testimonial-card {
+  /* background: #fff; */
+  background-color: pink;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+.testimonial-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h4 {
+  font-size: 22px;
+  color: #2d465e;
+  margin-bottom: 5px;
+}
+
+.testimonial-card span {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.stars {
+  color: #ffc107;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #444;
+}
+
+.swiper-pagination-bullet {
+  background: #cfd4da;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #559bcc;
+}
+
+/* ========== Testimonial Section Ends ========== */
