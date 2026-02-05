@@ -39,7 +39,7 @@ const Features = () => {
         {/* Feature Section 3 */}
         <div className='feature-sec-3'>
           <div className='sec-3-img'>
-            <img src={FeatureImg2} alt="Feature Img" className="img-fluid" />
+            <img src={FeatureImg3} alt="Feature Img" className="img-fluid" />
           </div>
           <div className='sec-3-text'>
             <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
