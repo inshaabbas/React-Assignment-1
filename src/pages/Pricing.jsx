@@ -28,7 +28,7 @@ const Pricing = () => {
             <p className='hide'><i class="bi bi-x"></i><s>Massa ultricies mi quis hendrerit</s></p>
           </div>
           <div className='card-button'>
-            <button><a href="#">Buy Now</a></button>
+            <button>Buy Now</button>
           </div>
         </div>
         {/* Card 2 */}
@@ -50,7 +50,7 @@ const Pricing = () => {
             <p><i class="bi bi-check"></i>Massa ultricies mi quis hendrerit</p>
           </div>
           <div className='card-button'>
-            <button><a href="#">Buy Now</a></button>
+            <button>Buy Now</button>
           </div>
         </div>
         {/* Card 3 */}
@@ -72,7 +72,7 @@ const Pricing = () => {
             <p><i class="bi bi-check"></i>Massa ultricies mi quis hendrerit</p>
           </div>
           <div className='card-button'>
-            <button><a href="#">Buy Now</a></button>
+            <button>Buy Now</button>
           </div>
         </div>
       </div>
