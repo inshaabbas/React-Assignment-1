@@ -906,3 +906,382 @@
 /* ========== FAQ Section Ends ========== */
 
 /* ========== Contact Section Starts ========== */
+
+.contact-section{
+    padding: 40px 20px 40px 20px;
+    height: auto;
+}
+
+.contact-head{
+    text-align: center;
+}
+
+.contact-section .contact-head h2{
+    color: #2D465E;
+    font-size: 32px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.contact-section .contact-head p{
+    color: #212529;
+    font-size: 17px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+    margin-bottom: 50px;
+}
+
+.contact-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.con-text-add-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #e2ecf1 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.con-text-add-icon:hover{
+    background-color: #559BCC;
+    color: #ffffff;
+}
+
+.con-text-add-icon:hover i{
+    color: #ffffff;
+}
+
+.con-text-add-icon i{
+    font-size: 22px;
+    color: #559bcc;
+}
+
+.con-text-address h3{
+    color: #2d465E;
+    font-size: 18px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.con-text-address p{
+    color: #212529;
+    font-size: 14px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.con-text-call-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #e2ecf1 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.con-text-call-icon:hover{
+    background-color: #559BCC;
+    color: #ffffff;
+}
+
+.con-text-call-icon:hover i{
+    color: #ffffff;
+}
+
+.con-text-call-icon i{
+    font-size: 22px;
+    color: #559bcc;
+}
+
+.con-text-call h3{
+    color: #2d465E;
+    font-size: 18px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.con-text-call p{
+    color: #212529;
+    font-size: 14px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.con-text-email-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #e2ecf1 ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.con-text-email-icon:hover{
+    background-color: #559BCC;
+    color: #ffffff;
+}
+
+.con-text-email-icon:hover i{
+    color: #ffffff;
+}
+
+.con-text-email-icon i{
+    font-size: 22px;
+    color: #559bcc;
+}
+
+.con-text-email h3{
+    color: #2d465E;
+    font-size: 18px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.con-text-email p{
+    color: #212529;
+    font-size: 14px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-info{
+    display: flex;
+    gap: 10px;
+}
+
+.form-info input{
+    color: rgb(150, 148, 148);
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid rgb(154, 152, 152);
+    height: 42px;
+    width: 100%;
+    max-width: 415px;
+}
+
+.form-info input:focus{
+    outline: #559bcc 1px solid;
+}
+
+.form-subject input{
+    width: 830px;
+    height: 42px;
+    color: rgb(150, 148, 148);
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid rgb(154, 152, 152);
+}
+
+.form-subject input:focus{
+    outline: #559bcc 1px solid;
+}
+
+.form-msg textarea{
+    color: rgb(150, 148, 148);
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid rgb(154, 152, 152);
+    width: 830px;
+    height: 145px;
+}
+
+.form-msg textarea:focus{
+    outline: #559bcc 1px solid;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-btn button{
+    border: none;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 10px 22px;
+    background-color: #559BCC;
+    border-radius: 40px;
+}
+
+@media (max-width: 1096px){
+    .contact-main{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+    text-align: left;  
+    align-items: flex-start;
+}
+}
+
+@media (max-width: 885px){
+    .form-info input{
+    width: 100%;
+    max-width: 380px;
+}
+
+.form-subject input{
+    width: 770px;
+    height: 42px;
+}
+
+.form-msg textarea{
+    width: 770px;
+    height: 145px;
+}
+}
+
+@media (max-width: 834px){
+    .form-info input{
+    width: 100%;
+    max-width: 340px;
+}
+
+.form-subject input{
+    width: 680px;
+    height: 42px;
+}
+
+.form-msg textarea{
+    width: 680px;
+    height: 145px;
+}
+}
+
+@media (max-width: 751px){
+    .form-info input{
+    width: 100%;
+    max-width: 320px;
+}
+
+.form-subject input{
+    width: 640px;
+    height: 42px;
+}
+
+.form-msg textarea{
+    width: 640px;
+    height: 145px;
+}
+}
+
+@media (max-width: 705px){
+    .form-info input{
+    width: 100%;
+    max-width: 320px;
+}
+
+.form-subject input{
+    width: 100%;
+    max-width: 690px;
+    height: 42px;
+}
+
+.form-msg textarea{
+    width: 100%;
+    max-width: 690px;
+    height: 145px;
+}
+}
+
+/* ========== Contact Section Ends ========== */
+
+/* ========== Footer Section Starts ========== */
+
+.footer{
+    background-color: #183573;
+    padding: 40px 20px;
+    color: white;
+    height: auto;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top h3{
+    font-size: 36px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: bold;
+}
+
+.footer-top p{
+    font-size: 16px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+    text-align: center;
+}
+
+.foot-social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.foot-social-icons .icon-1, .icon-2 , .icon-3 , .icon-4 , .icon-5{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #559BCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom p{
+    margin: 0px;
+    font-size: 13px;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}
+
+.developer strong{
+    color: #559BCC;
+    font-family: "Roboto" , system-ui, -apple-system, sans-serif;
+}

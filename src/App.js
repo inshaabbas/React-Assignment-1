@@ -8,6 +8,8 @@ import Gallery from './pages/Gallery';
 import Testimonial from './pages/Testimonial';
 import Pricing from './pages/Pricing';
 import FAQ from "./pages/FAQ"
+import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
     <Testimonial/>
     <Pricing/>
     <FAQ/>
+    <Contact/>
+    <Footer/>
     </>
   );
 }
